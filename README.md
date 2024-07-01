@@ -51,8 +51,7 @@ After closing down B4A and the Emulator, to run the app in future session follow
 - In B4A click the Connect button in the Logger Window
 
 At this point you should be able to compile and run as many times as needed until disconnected from the emulator.  Do this via: 
-- In B4A select Project->Compile and Run from the menu
-- 
+- In B4A select Project->Compile and Run from the menu.  It should install and run on emulator.
 
  
 
