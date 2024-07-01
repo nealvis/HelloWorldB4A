@@ -19,7 +19,7 @@ For this project the following dependencies were used.  Future version of these 
 - BlueStacks App Player from: https://www.bluestacks.com/download.html
   - (I used version  5.21.215.1042 P64)
 
-## Software Development Tool Setup for Emulation Device
+## Software Development Tool Setup and First Run on Emulation Device
 Follow the following instructions to setup a build environment using an emulator.
 1. Install B4A via the instructions here: https://www.b4x.com/b4a.html including JDK and other required software
 2. Install BlueStacks Android Emulator
@@ -41,14 +41,18 @@ Follow the following instructions to setup a build environment using an emulator
 16. Back in the B4A IDE click the connect button in the Logs window.  (If you don't see the Logs window then open it from the Windows->Logs menu item.)
 
 Now you should be ready to build and run the application in the emulator by selecting Project->Compile and Run from the menu in the B4A IDE.  The app should build and automatically get installed in the emulator and then automatically run in the emulator looking like this:
-![image](https://github.com/nealvis/HelloWorldB4A/assets/21041294/ede18fcb-e2c9-43f9-8bf6-e4186474220b)
+![image](https://github.com/nealvis/HelloWorldB4A/assets/21041294/c6149a75-81a9-4147-b5c5-cafe1e0dce12)
 
-
-
-
-## Running the App
-After all your tools are setup and installed follow these steps to run the app in future sessions:
+## Running the App After First Setup
+After closing down B4A and the Emulator, to run the app in future session follow these steps:
 - Open the project by navigating to HelloWorldB4A\B4A in the cloned repository and double click on HelloWorldB4A.b4a.
+- Start BlueStacks App Player android emulator from the windows menu.
+- From Administrator Command shell run `adb connect 127.0.0.1:5555` (use appropriate IP addr and port nubmer)
+- In B4A click the Connect button in the Logger Window
+
+At this point you should be able to compile and run as many times as needed until disconnected from the emulator.  Do this via: 
+- In B4A select Project->Compile and Run from the menu
+- 
 
  
 
